@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.eot?') format('embedded-opentype'),
+       url('../fonts/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato-semibold';
+  src: url('../fonts/Lato-Semibold.eot?') format('embedded-opentype'),
+       url('../fonts/Lato-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato-light';
+  src: url('../fonts/Lato-Light.eot?') format('embedded-opentype'),
+       url('../fonts/Lato-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato-Thin';
+  src: url('../fonts/Lato-Thin.eot?') format('embedded-opentype'),
+       url('../fonts/Lato-Thin.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Lato-light', sans-serif;
+  padding: 10px 0;
+}
+h2 {
+  font-size: 24px;
+  font-family: 'Lato-light', sans-serif;
+  padding: 10px 0;
+}
+h3 {
+  font-size: 18px;
+  font-family: 'Lato-semibold', sans-serif;
+  padding: 6px 0;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: none
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.adresse {
+  background-color: #EEEEEE;
+  min-height: 26em;
+  margin-bottom: 1em;
+}
+
+.row {
+  padding: 0.5em;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.input-group-btn > .btn {
+  z-index: 100;
+  height: 100%;
+  border-left-width:0;left:-2px;
+}
+/* stop the glowing blue shadow */
+.form-control:focus {
+ box-shadow:none;
+ border-color:#cccccc;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+.projekt {
+background-color: #eeeeee;
+}
+
+.label {
+  color: #000000;
+}
+
+.ui-timepicker-table{
+  min-width: 25em;
+}
+
+.ui-timepicker-table .periods {
+  color: #ffffff;
+}

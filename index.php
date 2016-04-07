@@ -1,0 +1,40 @@
+<?php
+require_once('load.php');
+echo "<!DOCTYPE html>";
+echo "<html>";
+echo "<head>";
+	echo "<title>Adressen</title>";
+echo "</head>";
+	echo "<body>";
+		echo "<div class='container-fluid'>";
+						/*Login Request Form -> automated post to Authentication Script in Login.php*/
+						echo "<div class='row'>";
+							echo "<div class='col-md-6 col-md-offset-3 centered'>";
+								echo "<div class='row'>";
+									echo "<div class='col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 col centered'>";
+										echo "<img src='img/logo.jpg' class='img-fullwidth'/>";
+									echo "</div>";
+								echo "</div>";
+								echo "<div class='row'>";
+									echo "<div class='col-md-12 col-lg-10 col-lg-offset-1 col centered'>";
+										echo "<form role='form' action='login.php' method='post' class='form-login form-horizontal'/>";
+											echo "<div class='form-group'>";
+												echo "<label for='username'>Benutzername:</label>";
+												echo "<input type='text' name='username'class='form-control logininput'  autocomplete='off' placeholder='Benutername...'/>";
+											echo "</div>";
+											echo "<div class='form-group'>";
+												echo "<label for='username'>Passwort:</label>";
+												echo "<input type='password' name='password' class='form-control logininput'  autocomplete='off' placeholder='Passwort...'/>";
+											echo "</div>";
+											echo "<div class='form-group'>";
+												echo "<input type='submit' name='submit' class='form-control btn-primary' value='Log in'>";
+											echo "</div>";
+										echo "</form>";
+									echo "</div>";
+								echo "</div>";
+							echo "</div>";
+						echo "</div>";
+					echo "</div>";
+				echo "</body>";
+			echo "</html>";
+?>

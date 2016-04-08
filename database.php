@@ -83,8 +83,8 @@
       $projekte.="<p>Erledigt: ".$row->ERLEDIGT."</p>";
       $projekte.="</div>";
       $projekte.="<div class='col-sm-12'>";
-      $projekte.="<div class='col-sm-6'><input type='button' class='btn btn-info btn-lg' value='Update'></div>";
-      $projekte.="<div class='col-sm-6'><input type='button' class='btn btn-info btn-lg' value='Delete'></div>";
+      $projekte.="<div class='col-sm-6'><input type='button' name='update' class='btn btn-info btn-lg' value='Update'></div>";
+      $projekte.="<div class='col-sm-6'><input type='button' name='delete' id='".$row->PROJEKTID."'class='btn btn-info btn-lg' value='Delete'></div>";
       $projekte.="</div>";
       $projekte.="</div>";
       $projekte.="</div>";

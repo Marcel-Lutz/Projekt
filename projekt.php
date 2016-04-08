@@ -35,7 +35,6 @@ echo "</head>";
         echo "</div>";
 		  echo "</div>";
 	 	echo "</div>";
-
   echo "<script src='js/bootstrap.min.js'></script>";
 echo "</body>";
 echo "</html>";
